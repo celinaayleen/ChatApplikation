@@ -1,4 +1,5 @@
-from Listener import Listener
+from Application import Application
 
-listener = Listener()
-listener.start()
+if __name__ == "__main__":
+    app = Application()
+    app.start()
